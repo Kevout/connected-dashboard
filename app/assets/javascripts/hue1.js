@@ -1,4 +1,4 @@
-function lampstuur(n,w) {
+function hue1(n,w) {
 	xmlhttp = new XMLHttpRequest();
 	xmlhttp.open('PUT',
 'http://10.0.1.13/api/newdeveloper/lights/1/state',true);
@@ -6,13 +6,13 @@ function lampstuur(n,w) {
 
 	switch(n)
 	{
-	case "lamp_on":
+	case "hue1_on":
 	  xmlhttp.send('{"on":true}');
 	  break;
-	case "lamp_off":
+	case "hue1_off":
 	  xmlhttp.send('{"on":false}');
 	  break; 
-	case "lamp_white":
+	case "hue1_white":
 	  xmlhttp.send('{"ct":0}');
 	  break;
 	default:
@@ -22,14 +22,14 @@ function lampstuur(n,w) {
 //
 
 $(document).ready(function(){
-	$("#lamp_on").click(function(){
-	  lampstuur("lamp_on");
+	$("#hue1_on").click(function(){
+	  hue1("hue1_on");
 	});
-	$("#lamp_off").click(function(){
-	  lampstuur("lamp_off");
+	$("#hue1_off").click(function(){
+	  hue1("hue1_off");
 	});
-	$("#lamp_white").click(function(){
-	  lampstuur("lamp_white");
+	$("#hue1_white").click(function(){
+	  hue1("hue1_white");
 	});
 });
 function returnpercentage(w) {
