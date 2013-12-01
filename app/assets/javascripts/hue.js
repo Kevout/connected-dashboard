@@ -15,7 +15,7 @@ function hue1(n,w) {
 	case "hue1_white":
 	  xmlhttp.send('{"ct":0}');
 	case "hue1_fall":
-	  xmlhttp.send('{"on":true, "bri":124, "hue":6491, "sat":213, "ct":500}');
+	  xmlhttp.send('{"on":true, "bri":124, "hue":6491, "sat":213, "xy":[0.567, 0.3754], "ct":500}');
 	  break;
 	case "hue1_night":
 	  xmlhttp.send('{"on":true, "bri":1, "hue":46988, "sat":254, "xy":[0.1683, 0.0426], "ct":500}');
@@ -43,10 +43,10 @@ function hue2(n,w) {
 	  xmlhttp.send('{"ct":0}');
 	  break;
 	case "hue2_fall_wakeup":
-	  xmlhttp.send('{"on":true, "bri":2, "hue":2005, "sat":206, "ct":500}');
+	  xmlhttp.send('{"on":true, "bri":2, "hue":2005, "sat":206, "xy":[0.6024, 0.3448], "ct":500}');
 	  break;
 	case "hue2_fall":
-	  xmlhttp.send('{"on":true, "bri":124, "hue":2005, "sat":206, "ct":500}');
+	  xmlhttp.send('{"on":true, "bri":124, "hue":2005, "sat":206, "xy":[0.6024, 0.3448], "ct":500}');
 	  break;
 	case "hue2_night":
 	  xmlhttp.send('{"on":true, "bri":7, "hue":49344, "sat":254, "xy":[0.1943, 0.0551], "ct":500}');
@@ -74,7 +74,7 @@ function hue3(n,w) {
 	  xmlhttp.send('{"ct":0}');
 	  break;
 	case "hue3_fall":
-	  xmlhttp.send('{"on":true, "bri":124, "hue":11228, "sat":165, "ct":432}');
+	  xmlhttp.send('{"on":true, "bri":124, "hue":11228, "sat":165, "xy":[0.4945, 0.3981], "ct":432}');
 	  break;
 	case "hue3_night":
 	  xmlhttp.send('{"on":true, "bri":3, "hue":46988, "sat":254, "xy":[0.1683, 0.0426], "ct":500}');
