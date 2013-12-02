@@ -8,10 +8,114 @@
  *= require_tree . 
 */
 
-img {
-	margin: 10px;
+html body {
+	background-color: #242424;
 }
 
 div.container {
 	margin-top: 20px;
+	background-image: none;
+}
+
+img {
+	margin: 10px;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	border: 1px none #feffff;
+	display: inline-block;
+	float: left;
+}
+
+.box_two {
+	width: 310px;
+	height: 150px;
+	margin: 5px;
+	border: 1px none #feffff;
+	display: inline-block;
+	float: left;
+}
+
+#box1 {
+	background-color: #F3B200;
+}
+
+#box2 {
+	background-color: #77B900;
+}
+
+#box3 {
+	background-color: #2572EB;
+}
+
+#box4 {
+	background-color: #AD103C;
+}
+
+#box5 {
+	background-color: #7200AC;
+}
+
+#box6 {
+	background-color: #4617B4;
+}
+
+#box7 {
+	background-color: #006AC1;
+}
+
+#box8 {
+	background-color: #008287;
+}
+
+#box9 {
+	background-color: #FF981D;
+}
+
+#box10 {
+	background-color: #FF2E12;
+}
+
+#box11 {
+	background-color: #91D100;
+}
+
+#box12 {
+	background-color: #1FAEFF;
+}
+
+#calendar {
+	color: #feffff;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Sans Serif";
+	padding: 10px;
+}
+
+#calendar span.month {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#calendar span.day {
+	font-size: 87px;
+	font-weight: 100;
+	position: relative;
+	bottom: 34px;
+}
+
+#calendar span.time {
+	position: relative;
+	bottom: 100px;
+	font-weight: 100;
+	font-size: 49px;
+	left: 102px;
+}
+
+#date {
+	width: 95px;
+	padding-right: 10px;
+	border-right: 1px solid #feffff;
+	height: 130px;
 }
