@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
+ruby "1.9.3"
 
 gem 'rails', '3.1.10'
+gem 'activerecord-postgresql-adapter'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
