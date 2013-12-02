@@ -99,14 +99,14 @@ img {
 
 #calendar span.month {
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 300%;
 }
 
 #calendar span.day {
-	font-size: 87px;
 	font-weight: 100;
 	position: relative;
-	bottom: 34px;
+	bottom: 39px;
+	font-size: 650%;
 }
 
 #calendar span.time {
