@@ -15,10 +15,14 @@ html body {
 div.container {
 	margin-top: 20px;
 	background-image: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
 }
 
 img {
 	margin: 10px;
+	text-align: center;
 }
 
 .box {
